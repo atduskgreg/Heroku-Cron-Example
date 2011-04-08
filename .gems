@@ -1,0 +1,4 @@
+sinatra
+dm-postgres-adapter
+dm-migrations
+do_postgres

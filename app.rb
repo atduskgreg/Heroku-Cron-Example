@@ -4,7 +4,7 @@ require 'cron_log'
 
 
 get "/" do
-  html = "<html><body><ul>"
+  html = "<html><body><h1>All CronLogs: #{CronLog.count}</h1><ul>"
   
     for log in CronLog.all
       html << <<-HTML
